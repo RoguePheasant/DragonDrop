@@ -1,0 +1,20 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#cont {
+    background-color: coral;
+    background-image: linear-gradient(lightblue .1em, transparent 1.em),
+        linear-gradient(90deg, lightblue .1em, transparent .1em);
+    background-size: 4em 4em;
+    height: 100vh;
+}
+
+#dragon {
+    width: 150px;
+    height: 150px;
+
+    cursor: pointer;
+    position: fixed;
+}

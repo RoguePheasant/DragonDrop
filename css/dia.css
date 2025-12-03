@@ -1,0 +1,38 @@
+body {
+    background: #3498db;
+    padding: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.corner {
+    position: absolute;
+    width: 10vw;
+    right: 2vw;
+    bottom: 0;
+    transform: translateY(80%);
+}
+
+
+.textBox {
+    font-size: 6vw;
+    word-spacing: 0.2em;
+    margin: 0 auto;
+    background: #fff;
+    padding: 1em;
+    border-bottom: 1vw solid #0e6dad;
+    position: relative;
+    line-height: 1.2em;
+}
+
+/* Used for injecting text into textBox*/
+.textBox span {
+    opacity: 0;
+}
+
+.textBox span.reveal {
+    opacity: 1;
+}
+
+.textBox span.orange {
+    color: coral;
+}
